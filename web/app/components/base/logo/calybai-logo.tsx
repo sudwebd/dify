@@ -18,13 +18,13 @@ export const logoSizeMap: Record<LogoSize, string> = {
   small: 'w-9 h-4',
 }
 
-type DifyLogoProps = {
+type CalybAILogoProps = {
   style?: LogoStyle
   size?: LogoSize
   className?: string
 }
 
-const DifyLogo: FC<DifyLogoProps> = ({
+const CalybAILogo: FC<CalybAILogoProps> = ({
   style = 'default',
   size = 'medium',
   className,
@@ -41,4 +41,4 @@ const DifyLogo: FC<DifyLogoProps> = ({
   )
 }
 
-export default DifyLogo
+export default CalybAILogo
